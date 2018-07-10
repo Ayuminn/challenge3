@@ -1,0 +1,51 @@
+@charset "UTF-8"
+
+body { /*反映されない*/
+  margin: 0;
+  padding: 0;
+  background: linen;
+  font-size: 14px;
+  font-family: "ヒラギノ丸ゴ Pro W4" "Hiragino Maru Gothic Pro" "sans-serif";
+  vertical-align: middle;
+}
+
+a {
+  color: lightcoral;
+}
+
+a:visited {
+  color: darkgray;
+}
+
+a:hover {
+  color: tan;
+  font-weight: none;
+  text-decoration: none;
+}
+
+h1 {
+  color: darkred;
+  font-weight: 400;
+}
+
+h2 {
+  color: darkolivegreen;
+  font-weight: 200;
+}
+
+p, li {
+  color: rosybrown;
+  line-height: 1.0;
+}
+
+img {
+  border: 2px black solid; /*反映されない…画像の回りに線をつける*/
+}
+
+table {
+  margin-top: 30px;
+}
+
+navi { /*1pxでも大きくスペースが空いてしまう*/
+  margin: 1px;
+}
